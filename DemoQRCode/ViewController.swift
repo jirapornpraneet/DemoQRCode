@@ -13,6 +13,14 @@ class ViewController: UIViewController {
     
     var passenger: Passenger?
     var encrypted: String?
+    
+    var key: String {
+        return Configuration.Screening.screeningEncryptKey
+    }
+    
+    var iv: String {
+        return Configuration.Screening.screeningEncryptIV
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

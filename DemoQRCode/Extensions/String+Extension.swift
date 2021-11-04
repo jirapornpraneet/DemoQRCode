@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import CryptoSwift
 import UIKit
 
 extension String {

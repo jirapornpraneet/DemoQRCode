@@ -6,8 +6,9 @@
 //
 
 import Foundation
+import ObjectMapper
 
-class Passenger: NSObject {
+class Passenger: NSObject, Mappable {
     
     var id = ""
     var prefix = ""
@@ -19,5 +20,16 @@ class Passenger: NSObject {
     var countryCodeId = 0
     
     override init() {}
-
+    required init?(map: Map) {}
+    func mapping(map: Map) {
+        id <- map["id"]
+//        prefix <- map["prefix"]
+//        fullName <- map["fullName"]
+//        countryCode <- map["countryCode"]
+//        phoneNumber <- map["phoneNumber"]
+//
+//        prefixId <- map["prefixId"]
+//        countryCodeId <- map["countryCodeId"]
+    }
 }
+
