@@ -13,6 +13,8 @@
 		6A9EE3442733A27E004FA5AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A9EE3422733A27E004FA5AD /* Main.storyboard */; };
 		6A9EE3462733A281004FA5AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A9EE3452733A281004FA5AD /* Assets.xcassets */; };
 		6A9EE3492733A281004FA5AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A9EE3472733A281004FA5AD /* LaunchScreen.storyboard */; };
+		6A9EE3512733A574004FA5AD /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9EE3502733A574004FA5AD /* Passenger.swift */; };
+		6A9EE3542733A6F1004FA5AD /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9EE3532733A6F1004FA5AD /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6A9EE3452733A281004FA5AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A9EE3482733A281004FA5AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A9EE34A2733A281004FA5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A9EE3502733A574004FA5AD /* Passenger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passenger.swift; sourceTree = "<group>"; };
+		6A9EE3532733A6F1004FA5AD /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 		6A9EE33B2733A27E004FA5AD /* DemoQRCode */ = {
 			isa = PBXGroup;
 			children = (
+				6A9EE3522733A6EA004FA5AD /* Extensions */,
 				6A9EE33C2733A27E004FA5AD /* AppDelegate.swift */,
+				6A9EE3502733A574004FA5AD /* Passenger.swift */,
 				6A9EE33E2733A27E004FA5AD /* SceneDelegate.swift */,
 				6A9EE3402733A27E004FA5AD /* ViewController.swift */,
 				6A9EE3422733A27E004FA5AD /* Main.storyboard */,
@@ -65,6 +71,14 @@
 				6A9EE34A2733A281004FA5AD /* Info.plist */,
 			);
 			path = DemoQRCode;
+			sourceTree = "<group>";
+		};
+		6A9EE3522733A6EA004FA5AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6A9EE3532733A6F1004FA5AD /* String+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +154,8 @@
 			files = (
 				6A9EE3412733A27E004FA5AD /* ViewController.swift in Sources */,
 				6A9EE33D2733A27E004FA5AD /* AppDelegate.swift in Sources */,
+				6A9EE3512733A574004FA5AD /* Passenger.swift in Sources */,
+				6A9EE3542733A6F1004FA5AD /* String+Extension.swift in Sources */,
 				6A9EE33F2733A27E004FA5AD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
