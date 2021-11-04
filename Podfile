@@ -6,5 +6,6 @@ target 'DemoQRCode' do
   use_frameworks!
 
   pod 'CryptoSwift'
+  pod 'ObjectMapper'
 
 end
