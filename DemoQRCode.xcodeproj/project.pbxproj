@@ -16,6 +16,7 @@
 		6A9EE3512733A574004FA5AD /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9EE3502733A574004FA5AD /* Passenger.swift */; };
 		6A9EE3542733A6F1004FA5AD /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9EE3532733A6F1004FA5AD /* String+Extension.swift */; };
 		6A9EE3562733AAF1004FA5AD /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9EE3552733AAF1004FA5AD /* Configuration.swift */; };
+		6A9EE3592733B9EB004FA5AD /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A9EE3582733B9EB004FA5AD /* Config.plist */; };
 		A3069E4DD194EFCF40B0E01C /* Pods_DemoQRCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF0AD0FFEF78836A4401772A /* Pods_DemoQRCode.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		6A9EE3502733A574004FA5AD /* Passenger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passenger.swift; sourceTree = "<group>"; };
 		6A9EE3532733A6F1004FA5AD /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		6A9EE3552733AAF1004FA5AD /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		6A9EE3582733B9EB004FA5AD /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 		BF0AD0FFEF78836A4401772A /* Pods_DemoQRCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoQRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -78,6 +80,7 @@
 		6A9EE33B2733A27E004FA5AD /* DemoQRCode */ = {
 			isa = PBXGroup;
 			children = (
+				6A9EE3572733B9DA004FA5AD /* File */,
 				6A9EE3522733A6EA004FA5AD /* Extensions */,
 				6A9EE33C2733A27E004FA5AD /* AppDelegate.swift */,
 				6A9EE3502733A574004FA5AD /* Passenger.swift */,
@@ -98,6 +101,14 @@
 				6A9EE3532733A6F1004FA5AD /* String+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6A9EE3572733B9DA004FA5AD /* File */ = {
+			isa = PBXGroup;
+			children = (
+				6A9EE3582733B9EB004FA5AD /* Config.plist */,
+			);
+			path = File;
 			sourceTree = "<group>";
 		};
 		CBD3C5A8A398A852CF815A7C /* Frameworks */ = {
@@ -168,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A9EE3592733B9EB004FA5AD /* Config.plist in Resources */,
 				6A9EE3492733A281004FA5AD /* LaunchScreen.storyboard in Resources */,
 				6A9EE3462733A281004FA5AD /* Assets.xcassets in Resources */,
 				6A9EE3442733A27E004FA5AD /* Main.storyboard in Resources */,
