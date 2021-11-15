@@ -65,7 +65,7 @@ class ViewController: UIViewController {
         
         // Color
         let colorParameters = [
-            "inputColor0": CIColor(color: UIColor.black),   // Foreground
+            "inputColor0": CIColor(color: UIColor.systemPink),   // Foreground
             "inputColor1": CIColor(color: UIColor.white)    // Background
         ]
         let colored = scaledQrImage.applyingFilter("CIFalseColor", parameters: colorParameters)
